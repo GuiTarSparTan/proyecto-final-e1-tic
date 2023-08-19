@@ -8,7 +8,6 @@ const About = () => {
     };
 
     const handleQuestionSubmit = () => {
-        // Aquí  realizamos alguna acción con la pregunta, como enviarla a un servidor
         console.log('Pregunta enviada:', question);
         setQuestion("");
         alert("Your Message has been sent!")
