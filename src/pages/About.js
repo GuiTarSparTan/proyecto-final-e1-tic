@@ -1,13 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const About = () => {
+    const [question, setQuestion] = useState('');
+
+    const handleQuestionChange = (event) => {
+        setQuestion(event.target.value);
+    };
+
+    const handleQuestionSubmit = () => {
+        // Aquí  realizamos alguna acción con la pregunta, como enviarla a un servidor
+        console.log('Pregunta enviada:', question);
+        setQuestion("");
+        alert("Your Message has been sent!")
+    };
+
     return (
-        <div>
-            <h1>TechDev is a software development company based in Costa Rica.</h1>
-            <h2>We are acctively recruiting new developers!</h2>
-            <h3>Don't doubt contacting us!</h3>
-            <h3>email: techdev.recruiting@gmail.com</h3>
-            <h3>phone: 2299-0707 or 2299-0808</h3>
+        <div className="about-container">
+            <div className="about-content">
+                <h1>TechDev is a Software Development Company Based in Costa Rica </h1>
+                <p>We are actively recruiting new developers!</p>
+                <p>Don't hesitate to contact us:</p>
+                <p>Email: <a href="mailto:techdev.recruiting@gmail.com">techdev.recruiting@gmail.com</a></p>
+                <p>Phone: 2299-0707 or 2299-0808</p>
+            </div>
+            <div className="question-box">
+                <h2>¿Have a Question or Comment?</h2>
+                <textarea
+                    value={question}
+                    onChange={handleQuestionChange}
+                    placeholder="Enter your question or comment here..."
+                />
+                <button className='button' onClick={handleQuestionSubmit}>Send</button>
+            </div>
         </div>
     );
 };

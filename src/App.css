@@ -1,8 +1,13 @@
+/* App/general */
 .App {
-  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.App p{
+  font-size: 18px;
 }
 
 .App-logo {
@@ -31,6 +36,21 @@
   padding: 0%;
 }
 
+.button {
+  background-color: #007bff;
+  color: whitesmoke;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/*Navigation bar*/
 .navbar {
   display: flex;
   height: 100px;
@@ -88,14 +108,167 @@
   }
 }
 
+/*Footer*/
 .footer {
   background-color: #23303c;
   color: whitesmoke;
   text-align: center;
   margin-top: auto;
-  padding: 8px;
+  padding: 10px;
+  font-size: 18px;
 }
 
 .footer a {
   color: whitesmoke;
+}
+
+/* Home */
+.background {
+  background-image: url('https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.877);
+  padding: 40px;
+  max-width: 610px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.text-box {
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+
+/* About */
+.about-container {
+  background-color: #f5f5f5;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content h1 {
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 30px;
+}
+
+.about-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.question-box {
+  background-color: #ffffffc2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.664);
+}
+
+.question-box h2 {
+  margin-bottom: 20px;
+}
+
+.question-box textarea {
+  display: flex;
+  width: 96%;
+  height: 100px;
+  min-height: 50px;
+  padding: 10px;
+  border: 1.5px solid #23303c;
+  border-radius: 12px;
+  resize: vertical;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+}
+
+/* SharedFolder */
+.shared-folder {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.content h1 {
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.text-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.699);
+  text-align: center;
+
+}
+
+.text-box p {
+  margin-bottom: 15px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Find US */
+.container {
+  display: flex;
+  height: 75vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid #f8ebeb;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.map {
+  border: 0;
 }
