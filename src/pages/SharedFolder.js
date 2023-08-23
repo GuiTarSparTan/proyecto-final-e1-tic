@@ -7,10 +7,10 @@ const SharedFolder = () => {
 
     const handleOpenPicker = () => {
         openPicker({
-            clientId: "469637016678-072nl94aj21oo5hejq9amo8if6ds9frp.apps.googleusercontent.com",
-            developerKey: "AIzaSyDKHNVX2LNHVIjW36rbNe0vO07zRt5VYik",
+            clientId: "Here goes your client ID",
+            developerKey: "Here goes your api-key",
             viewId: "DOCS",
-            token: "ya29.a0AfB_byCJcolXFhriUPIVjqGtZJ20SonfheIGYtt7ud_-Ppxzp3DPG4dje7UBhQ5CZ-dlM9FfWbKKYmOAsIeThSM4zWerImRsTEDfjWRRCigxJPM-juTsA3YnF8zZ7N8mMRic3Dxqr__9yqHfPyzB9R_ro3RojvqdFPbplwaCgYKAbESARESFQHsvYlsuHItgHu1bUHUXIyesGkZ4g0173",
+            token: "Here goes your token",
             setIncludeFolders: true,
             showUploadView: true,
             showUploadFolders: true,
