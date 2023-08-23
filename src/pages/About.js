@@ -8,7 +8,7 @@ const About = () => {
     };
 
     const handleQuestionSubmit = () => {
-        console.log('Pregunta enviada:', question);
+        console.log('Your Message has been sent!:', question);
         setQuestion("");
         alert("Your Message has been sent!")
     };

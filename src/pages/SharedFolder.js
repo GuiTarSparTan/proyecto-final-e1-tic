@@ -7,10 +7,10 @@ const SharedFolder = () => {
 
     const handleOpenPicker = () => {
         openPicker({
-            clientId: "469637016678-072nl94aj21oo5hejq9amo8if6ds9frp.apps.googleusercontent.com",
-            developerKey: "AIzaSyDKHNVX2LNHVIjW36rbNe0vO07zRt5VYik",
+            clientId: "469637016678-lrlq55ra02ngcqssgsngte8t8929ujjk.apps.googleusercontent.com",
+            developerKey: "AIzaSyD8ZLPJajZG3BT72Ez2dYFYaEmOqizlr64",
             viewId: "DOCS",
-            token: "ya29.a0AfB_byCJcolXFhriUPIVjqGtZJ20SonfheIGYtt7ud_-Ppxzp3DPG4dje7UBhQ5CZ-dlM9FfWbKKYmOAsIeThSM4zWerImRsTEDfjWRRCigxJPM-juTsA3YnF8zZ7N8mMRic3Dxqr__9yqHfPyzB9R_ro3RojvqdFPbplwaCgYKAbESARESFQHsvYlsuHItgHu1bUHUXIyesGkZ4g0173",
+            token: "ya29.a0AfB_byDmkQbC4PBQ60XbWvm97rFrI2cwwIWMmMHOMCtJideEFNuVBZePyP9qNTgAVgedAn6IfrLXrK0o9Tg4zfyW7O_KYlh06I4OHvvbFmmIMR75QzSit3hvtBC8f6NFFN4F-cuisNpKEibbWXOTs6mGsZFx5zbkJ7KRAwaCgYKAcQSARESFQHsvYlsF_mj3cRsP6zTfJ3SA14PoQ0173",
             setIncludeFolders: true,
             showUploadView: true,
             showUploadFolders: true,

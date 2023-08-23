@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const navigateToSharedFolder = () => {
+        navigate('/SharedFolder');
+    }
+
     return (
         <div className="background">
             <div className="box">
@@ -16,8 +23,9 @@ const Home = () => {
                         Feel free to navigate around our website and contact us if you have
                         any questions.
                     </p>
-
                 </div>
+                <p>Navigate to the shared folder section clicking the button below.</p>
+                <button className="button" onClick={navigateToSharedFolder}>Shared Folder</button>
             </div>
         </div>
     );
