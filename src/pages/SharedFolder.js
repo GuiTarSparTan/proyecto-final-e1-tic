@@ -10,7 +10,7 @@ const SharedFolder = () => {
             clientId: "469637016678-lrlq55ra02ngcqssgsngte8t8929ujjk.apps.googleusercontent.com",
             developerKey: "AIzaSyDQv1d3vICfrmsHhudihV-Ae8aN8um3a0o",
             viewId: "DOCS",
-            token: "ya29.a0AfB_byBLWQWxmhgHrGDbEKttiveFAzOW1iMHgZMQ_MbdpFI6gSb2Utj7ijyhsXe3oJkO9CcLEJ0Z6gTsdJglDNGN-s-5VEXuzMpbQHGl7DZrOQIqWbtMeG9yXJiS0uJAFtwuiiEmL22bgMwow71UtZhb1R1n8oT7ElwPhQaCgYKAWYSARESFQHsvYlssRWudjNYhtb9WUfm6YfzLA0173",
+            token: "ya29.a0AfB_byB4InckIaUEoEo7kp4MT_gITBt7eII0UqP3IvFXwsi_YqPlZNEWEEbQsB6vqwwUNlMmEc56conDrwyaNtUgWA_FJK5NloE2pTY7CWED1z2rfr0SAtb4ub8vqvlNRvosn4zBNaX04N_BDMR5D5NFwTj2hHnocnDTlgaCgYKATUSARESFQHsvYlsHjP67lzJFSt_vY3iGjCGvg0173",
             setIncludeFolders: true,
             showUploadView: true,
             showUploadFolders: true,
